@@ -7,6 +7,10 @@
   border: 5px #F26532 solid;
 }
 
+.container-a {
+  
+}
+
 .user-input {
   margin: 15px;
   border: 5px #F26532 solid;
@@ -17,6 +21,7 @@
   margin: 15px;
   border: 5px #F26532 solid;
   display: inline-block;
+  float: right;
 }
 
 .data-log {
