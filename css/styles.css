@@ -8,19 +8,21 @@
 }
 
 .container-a {
-  
+  display: inline-block;
 }
 
 .user-input {
   margin: 15px;
   border: 5px #F26532 solid;
   display: inline-block;
+  width: 50%;
 }
 
 .returns {
   margin: 15px;
   border: 5px #F26532 solid;
   display: inline-block;
+  width: 50%;
   float: right;
 }
 
