@@ -1,9 +1,15 @@
-.logo {
+h1 {
+  font-size: 2em;
+}
 
+.logo {
+  text-align: center;
+  margin: 25px;
 }
 
 .power-desc {
-  margin: 15px;
+  padding: 5px;
+  margin: 25px;
   border: 5px #F26532 solid;
 }
 
@@ -12,14 +18,16 @@
 }
 
 .user-input {
-  margin: 15px;
+  padding: 5px;
+  margin: 25px;
   border: 5px #F26532 solid;
   display: inline-block;
-  width: 50%;
+  width: 35%;
 }
 
 .returns {
-  margin: 15px;
+  padding: 5px;
+  margin: 25px;
   border: 5px #F26532 solid;
   display: inline-block;
   width: 50%;
@@ -34,17 +42,11 @@
 /* ==============================================================*/
 
 @media screen and (max-width: 920px) {
-  .logo {
-    width: 450px;
-    margin: 0px auto;
-  }
+
 
 }
 
 @media screen and (max-width: 450px) {
-  .logo {
-    width: 100%;
-    margin: 0px auto;
-  }
+
 
 }
