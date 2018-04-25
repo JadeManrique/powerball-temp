@@ -1,3 +1,7 @@
+body {
+  background-color: #F4911C;
+}
+
 h1 {
   font-size: 2em;
 }
@@ -5,7 +9,6 @@ h1 {
 .center {
   text-align: center;
   margin: 0px auto;
-  width: 400px;
 }
 
 .container {
@@ -15,7 +18,7 @@ h1 {
 }
 
 .small {
-  width: 400px;
+  width: 300px;
 }
 
 /* ==============================================================*/
