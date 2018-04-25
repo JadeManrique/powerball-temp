@@ -2,41 +2,14 @@ h1 {
   font-size: 2em;
 }
 
-.logo {
-  text-align: center;
-  margin: 25px;
-}
-
-.power-desc {
-  padding: 5px;
-  margin: 25px;
-  border: 5px #F26532 solid;
-}
-
-.container-a {
-  display: inline-block;
-}
-
-.user-input {
-  padding: 5px;
-  margin: 25px;
-  border: 5px #F26532 solid;
-  display: inline-block;
-  width: 35%;
-}
-
-.returns {
-  padding: 5px;
-  margin: 25px;
-  border: 5px #F26532 solid;
-  display: inline-block;
-  width: 50%;
-  float: right;
-}
-
-.data-log {
+.container {
   margin: 15px;
-  border: 5px #F26532 solid;
+  padding: 10px;
+  border: 2px red solid;
+}
+
+.small {
+  width: 25%;
 }
 
 /* ==============================================================*/
