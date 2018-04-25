@@ -1,1 +1,7 @@
-(document).ready()
+(document).ready( function() {
+
+  $(".button").click(function() {
+    
+  });
+
+});

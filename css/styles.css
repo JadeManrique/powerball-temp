@@ -1,9 +1,10 @@
 body {
-  background-color: #F4911C;
+  background-image: url(../img/texture.png);
 }
 
 h1 {
   font-size: 2em;
+  font-family: 'Helvetica', monospace;
 }
 
 .center {
