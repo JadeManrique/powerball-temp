@@ -1,8 +1,12 @@
+/* FONTS GO HERE */
+
+/* Global */
 body {
   background-image: url(../img/texture.png);
 }
 
 h1 {
+  text-align: center;
   font-size: 2em;
   font-family: 'Helvetica', monospace;
 }
@@ -15,9 +19,23 @@ li {
   float: right;
 }
 
+p {
+  width: 50%;
+}
+
+/* image box */
+.imageBox {
+  text-align: center;
+}
+
+.imageBox img {
+  margin: 5px;
+  display: inline-block;
+}
+
+/* misc. */
 .center {
   text-align: center;
-  margin: 0px auto;
 }
 
 .container {
