@@ -27,14 +27,18 @@
     <p> Description explaining rules and process of the lottery and the chances of winning. </p>
   </div>
 
+<!-- User Input Fields -->
   <div class="container small center">
-    <input class="submit" type="text" placeholder="Winning Numbers" />
-    <button> Enter </button>
-    <input class="submit" type="text" value="Anonymous" placeholder="Name" />
-    <button> Enter </button>
-    <input class="submit" type="text" placeholder="Amount of $$$" onchange="limiter(this)" />
-    <button> Enter </button>
+    <ul>
+      <li><label> Current Numbers </label><input id="currentNum" type="text" placeholder="Winning Numbers" /></li>
+      <li><label> Name </label><input id="name" type="text" value="Anonymous" placeholder="Name" /></li>
+      <li><label> $ </label><input id="money" type="text" placeholder="Amount of $$$" onchange="limiter(this)" /></li>
+    </ul>
+
+    <button class="submit"> Play </button>
+
   </div>
+<!-- END -->
 
   <div class="container">
     <p> Returned values of the inputs above. </p>
