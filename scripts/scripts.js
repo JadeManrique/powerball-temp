@@ -1,16 +1,23 @@
+/*global $*/
+
 $(document).ready( function() {
 
   $(".submit").click(function() {
     var entry = {
-      winnings: $("#currentNum").val(),
+      winnings: $("#currentNum").val().split(','),
       name: $("#name").val(),
       cash: $("#money").val()
     }
+
+    playGame(entry);
+
     console.log(entry);
   });
 
   function playGame(data) {
-   $.post('https://lottery-vs-reality-eagarcia.c9users.io/playGame', data);
+   let results = $.post('https://lottery-vs-reality-eagarcia.c9users.io/runGame', data);
+   console.log(results);
+   console.log(results.responseJSON);
  }
 
 });

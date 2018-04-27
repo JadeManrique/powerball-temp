@@ -20,8 +20,9 @@
 <body>
 
 <!-- Header -->
-  <div class="container">
-    <h1> Lottery vs Reality </h1>
+  <div class="container center">
+    <img src="img/lotvsreal.png" width="400px" alt="lottery vs reality" />
+  <!--  <h1> <span class="lottery">Lottery</span> <span class="reality">vs Reality</span> </h1> -->
   </div>
 
 <!-- Summary of the Lottery -->
@@ -37,32 +38,47 @@
         <img src="img/placeholder.png" width="220px" alt="placeholder" />
     </div>
 
+    <p class="lottery"> SUMMARY OF LOTTERY </p>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
   </div>
 
 <!-- User Input Fields -->
-  <div class="container small center">
+  <div class="container inline size-a ">
     <ul>
       <li><label> Winning Numbers </label><input id="currentNum" type="text" placeholder="Winning Numbers" /></li>
       <li><label> Name </label><input id="name" type="text" value="Anonymous" placeholder="Name" /></li>
-      <li><label> $ </label><input id="money" type="text" placeholder="Wager" onchange="limiter(this)" /></li>
+      <li><label> $ </label><input id="money" type="number" placeholder="Wager" onchange="limiter(this)" /></li>
     </ul>
-
     <button class="submit"> Play </button>
-
   </div>
-<!-- END -->
 
+  <div class="container inline size-a right">
+    <p class="lottery"> INSTRUCTIONS </p>
+    <ol>
+      <li> 1. Insert the current winning lottery numbers. </li>
+      <li> 2. Type your name if you would like to appear on the leaderboard. </li>
+      <li> 3. Type in the amount of money you want to test. </li>
+      <li> 4. ??? </li>
+      <li> 5. PROFIT </li>
+    </ol>
+  </div>
+
+<!-- list of results from the game -->
   <div class="container">
+    <p class="lottery"> RESULTS </p>
     <p> Returned values of the inputs above. </p>
   </div>
 
+<!-- DID I WIN? NO! -->
   <div class="container">
-    <p> Did I win? </p>
+    <p class="lottery"> DID YOU WIN? </p>
+    <p> Most likely not. </p>
   </div>
 
+<!-- "Leaderboard" -->
   <div class="container">
+    <p class="lottery"> LEADERBOARD </p>
     <p> Data log of past players and their wins, losses, money spent. </p>
   </div>
 
