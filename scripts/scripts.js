@@ -3,8 +3,14 @@
 $(document).ready( function() {
 
   $(".submit").click(function() {
+    var winningNums = $("#currentNum").val().split(',');
+
+    if (winningNums.length < 6) {
+        winningNums = [0];
+    }
+
     var entry = {
-      winnings: $("#currentNum").val().split(','),
+      winnings: winningNums,
       name: $("#name").val(),
       cash: $("#money").val()
     }
